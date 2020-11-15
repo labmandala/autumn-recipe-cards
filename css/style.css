@@ -1,0 +1,214 @@
+body {
+	background: #DAF7F6;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	color: #3B3B3B;
+}
+
+header {
+	background: #FFFFFF;
+	text-align: center;
+}
+
+h1 {
+	display: inline-block;
+	padding: 40px 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #F16059;
+}
+
+header img {
+	margin-right: 16px;
+}
+
+main {
+/*	width: 1000px; */
+	margin: 0 auto;
+}
+
+.container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.card {
+	margin: 25px 0;
+/*	overflow: auto; */
+}
+
+.image {
+/*	float: left; */
+	width: 90%; /* 500px; */
+	height: 550px;
+}
+
+.recipe {
+/*	float: left; */
+	padding: 20px;
+	width: 90%; /* 500px; */
+	height: auto; /* 550px; */
+	background: #FFFFFF;
+	box-sizing: border-box;
+}
+
+#cookies .image {
+	background-image: url("../img/ri-ruby-grapefruit-beverage.jpg");
+	background-size: cover;
+}
+
+#pesto .image {
+	background-image: url("../img/ri-almond-cranberry-biscuit.jpg");
+	background-size: cover;
+}
+
+#salad .image {
+	background-image: url("../img/ri-fresh-figs.jpg");
+	background-size: cover;
+}
+
+.recipe h2 {
+	color: #F16059;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	line-height: 29px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.time {
+	margin-bottom: 20px;
+	border: 1px solid #3b3b3b;
+	overflow: auto;
+}
+
+.time div {
+	float: left;
+	padding-left: 6px;
+	width: 33.3333%;
+	box-sizing: border-box;
+	text-transform: uppercase;
+}
+
+.time .cook {
+	border: 1px solid #3b3b3b;
+}
+
+.time-details {
+	display: inline-block;
+}
+
+.time img {
+	margin-right: 5px;
+	vertical-align: middle;
+	width: 15px;
+	height: auto;	
+}
+
+.time strong {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.columns {
+	overflow: auto;
+}
+
+.directions {
+	float: left;
+	width: 100%; /* 240px; */
+}
+
+.ingredients {
+	float: left;
+	margin-right: 15px;
+	width: 205px;
+}
+
+.recipe h3 {
+	padding: 6px;
+	border: 1px solid #3b3b3b;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #F16059;
+}
+
+.ingredients ul {
+	padding-left: 15px;
+	line-height: 24px;
+	list-style-type: square;
+}
+
+.directions ol {
+	padding-left: 15px;
+	line-height: 24px;
+}
+
+@media (min-width: 640px) {
+	body {
+	  line-height: 16px;
+	}
+	h1 {
+	  font-size: 40px;
+	}
+	.image {
+	  height: 400px;
+	}
+	.time img {
+	  width: 15px;
+	  margin-right: 5px;
+	}
+	.time-details {
+	  display: inline-block;
+	  font-size: 12px;
+	}
+	.columns {
+	  display: flex;
+	  justify-content: space-between;
+	}
+	.ingredients {
+	  width: 45%;
+	  margin-right: 0;
+	}
+	.directions {
+	  width: 50%;
+	}
+  }
+  
+  @media (min-width: 1000px) {
+	body {
+	  line-height: 16px;
+	}
+	.main {
+	  display: block;
+	  width: 1000px;
+	}
+	.card {
+	  margin: 25px 0;
+	  overflow: auto;
+	}
+	.image {
+	  float: left;
+	  width: 500px;
+	  height: 550px;
+	  height: auto;
+	}
+	.recipe {
+	  float: left;
+	  padding: 20px;
+	  width: 500px;
+	  height: 550px;
+	  height: auto;
+	  box-sizing: border-box;
+	}
+	h1 {
+	  font-size: 48px;
+	}
+  }
