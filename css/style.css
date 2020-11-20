@@ -58,17 +58,17 @@ main {
 }
 
 #cookies .image {
-	background-image: url("../img/ri-ruby-grapefruit-beverage.jpg");
+	background-image: url("../img/mulled-cider.jpg");
 	background-size: cover;
 }
 
 #pesto .image {
-	background-image: url("../img/ri-almond-cranberry-biscuit.jpg");
+	background-image: url("../img/fig-bread.jpg");
 	background-size: cover;
 }
 
 #salad .image {
-	background-image: url("../img/ri-fresh-figs.jpg");
+	background-image: url("../img/spiced-pecans.jpg");
 	background-size: cover;
 }
 
