@@ -1,5 +1,5 @@
 body {
-	background: #DAF7F6;
+	background: #F2E9D8;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
 	line-height: 16px;
@@ -19,7 +19,7 @@ h1 {
 	font-size: 48px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #F16059;
+	color: #A63429;
 }
 
 header img {
@@ -73,7 +73,7 @@ main {
 }
 
 .recipe h2 {
-	color: #F16059;
+	color: #A63429;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 24px;
 	line-height: 29px;
@@ -127,7 +127,7 @@ main {
 .ingredients {
 	float: left;
 	margin-right: 15px;
-	width: 205px;
+	width: 100%; /* 205px; */
 }
 
 .recipe h3 {
@@ -137,7 +137,7 @@ main {
 	font-size: 12px;
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #F16059;
+	color: #A63429;
 }
 
 .ingredients ul {

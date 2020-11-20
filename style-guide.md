@@ -1,10 +1,14 @@
 # Recipe Card Project Style Guide
 
 ## Colors
-- Light blue (#DAF7F6)
-- Red (#F16059)
-- White (#FFFFFF)
+- Light cream (#F2E9D8)
+- Beige (#F16059)
+- Umber Rust (#732C02)
+- Vermilion (#A63429) 
+- Wine (#400101)
+
 - Dark gray (#3B3B3B) 
+- White (#FFFFFF) 
 
 
 ## Images
